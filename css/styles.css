@@ -144,13 +144,14 @@ body{
 
     .hero{
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, auto) 1fr;
+        grid-template-rows: repeat(3, 1fr);
         grid-template-areas: "img"
                              "texts"
                              "wave";
         justify-content: center;
         align-content: center;
         justify-items: center;
+        align-items: center;
     }
 
     .hero__img{
